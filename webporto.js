@@ -49,15 +49,3 @@ floatingButton.addEventListener("click",function(){
         behavior: "smooth"
     });
 });
-
-let menubars = document.getElementById("menubars");
-let closeSidebar = document.getElementById("close-sidebar");
-
-let mediaScreen = window.matchMedia("(max-width:768)px");
-
-function handleScreenChange(e){
-    if (e.matches){
-        menubars.style.display = "block"
-        menubars.addEventListener("click", function () )
-    }
-}
